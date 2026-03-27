@@ -1,0 +1,17 @@
+Gestion de turnos de estudiantes
+
+Este programa en C++ sirve para manejar turnos de atencion de estudiantes.  
+Se puede registrar un estudiante con su nombre y codigo atenderlos en orden de llegada muestra la lista y buscar por nombre
+
+Como funciona
+Se uso una lista enlazada simple hecha a mano sin librerias 
+La idea es que el primero que entra es el primero que se atiende (FIFO) 
+Insertar es rapido atender tambien, y buscar se hace recorriendo la lista
+
+Compilacion
+Para compilar con g++:
+
+En Visual Studio Code se probo con una extension de compilador porque VS Code no trae uno por defecto.
+
+GitHub
+El repositorio tiene varios commits: inicial con el codigo, luego el README y ajustes finales.
